@@ -1,0 +1,23 @@
+#show_container{
+    width: 1200px;
+    height: 600px;
+    padding-top: 50px;
+    margin: 0px auto;
+    padding-left: 35%;
+}
+
+#container{
+    margin: 0px auto;
+    width: 1000px;
+    height: 600px;
+    padding-top: 50px;
+}
+
+#header{
+    padding-left: 40%;
+    margin-bottom: 40px;
+}
+
+form{
+    padding-left: 30%;
+}

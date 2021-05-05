@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <title>Display Information</title>
+    </head>
+    <body>
+        <div id="show_container">
+            <h1>Submitted Info</h1>
+            <h3>Info Submitted:</h3>
+            <div class="info">
+                <p>Name: {{personal_name}}</p>
+                <p>Location: {{school_location}}</p>
+                <p>Language: {{coding_language}}</p>
+                <p>Referral: {{would_you_refer}}</p>
+                <p>Comments: {{your_comment}}</p>
+            </div>
+        </div>
+    </body>
+</html>

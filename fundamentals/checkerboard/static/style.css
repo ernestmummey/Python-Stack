@@ -1,0 +1,21 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    height: 600px;
+    width: 1200px;
+}
+
+
+.black{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.red{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}

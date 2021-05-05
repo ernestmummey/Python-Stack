@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+        <title>Checkers</title>
+    </head>
+    <body>
+        <div id="container">
+            <table>
+                {% for i in range(y//2):%}
+                <tr>
+                    {% for j in range(x//2)%}
+                    <td class="black"></td>
+                    <td class="red"></td>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    {% for j in range(x//2)%}
+                    <td class="red"></td>
+                    <td class="black"></td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </body>
+</html>
